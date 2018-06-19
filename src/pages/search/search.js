@@ -9,7 +9,7 @@ import Velocity from 'velocity-animate'
 let {keyword,id} = qs.parse(window.location.search.slice(1))
 
 new Vue({
-    el: '.container',
+    el: '#app',
     data: {
         goodsLists: null,
         keyword,

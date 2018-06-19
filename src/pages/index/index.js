@@ -21,7 +21,7 @@ var app = new Vue({
         pageSize: 10,
         loading: false,
         allLoaded: false,
-        swipeLists: []
+        swipeLists: null
     },
     components: {
         Swipe,
