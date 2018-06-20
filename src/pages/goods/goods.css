@@ -3289,15 +3289,16 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 .price-intro {
-  height: 44px;
+  transition: all .5s;
+  max-height: 44px;
   overflow: hidden;
   padding-left: 15px;
   border-bottom: 1px solid #eee;
-  background-color: #fff
+  background-color: #fff;
 }
 
 .price-intro.js-unfold {
-  height: auto
+  max-height: 300px;
 }
 
 .price-intro.js-unfold>h4 {
@@ -3318,6 +3319,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 .price-intro .icon-arrow {
+  transition: all .5s;
   content: '';
   position: absolute;
   width: 6px;

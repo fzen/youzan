@@ -569,7 +569,7 @@ only screen and (min-device-pixel-ratio:1.5) {
 }
 
 .sku-layout-title .goods-base-info .original-price {
-  display: none
+  /* display: none */
 }
 
 .sku-layout-title .goods-base-info .old-price {

@@ -13,12 +13,16 @@
 
 <style>
 .swiper-container {
+    width: 100%;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     z-index: 1;
+}
+.swiper-container img {
+    width: 100%;
 }
 </style>
 
